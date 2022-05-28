@@ -102,7 +102,7 @@
             display: flex;
             gap: 2rem;
             justify-content: center;
-            border-radius: 30px;
+            border-radius: 15px;
             background: linear-gradient(to right, #234252,#235664);
             margin: 0 auto;
         }
