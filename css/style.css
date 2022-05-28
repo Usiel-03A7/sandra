@@ -61,7 +61,7 @@
         display: flex;
         justify-content: space-around;
         border-radius: 30px;
-        background: linear-gradient(to right, #234252,#235664);
+        background: linear-gradient(to left, #580052, #003674);
         margin: 0 auto;
     }
     .contenedor__box__video {
@@ -70,7 +70,7 @@
         margin: 0 auto;
         border-radius: 5px;
         border: #212122 solid 2px;
-        background: linear-gradient(to right, #234252,#235664);
+        background: linear-gradient(to left, #580052, #003674);
         grid-template-columns: repeat(2, 1fr);
         flex-direction: row;
         align-items: center;
