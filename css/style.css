@@ -1,0 +1,126 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    h1,h2{
+        color: #fff;
+        font-size: 2rem;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    .contenedor {
+        margin-top: 2rem;
+    }
+    .contenedor__box{
+        display: flex;
+        font-size: 1.5rem;
+        flex-direction: column;
+        height: 100rem;
+        gap: 1rem;
+        color: #fff;
+    }
+    .icon {
+            margin-top: 7px;
+    }
+    .navbar {
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        margin:  auto 0;
+        
+    }
+    .navbar , .indice {
+        background: linear-gradient(to left, #580000, rgb(0, 54, 116));
+    }
+    .indice a {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin:  auto 0;
+        font-size: 2rem;
+        color: #fff;
+    }
+    #titulo1 {
+        margin:auto 0;
+    }
+    .contenedor__box__tittle {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 30px;
+        background: linear-gradient(to right, #234252,#235664);
+        margin: 0 auto;
+    }
+    .contenedor__box__video {
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 5px;
+        border: #212122 solid 2px;
+        background: linear-gradient(to right, #234252,#235664);
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        align-items: center;
+    }
+    .box__video__img {
+        width: 80%;
+        margin-top: 1rem;
+        margin-left: 15%;
+    }
+    @media (max-width: 480px) {
+        .navbar {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contenedor__box{
+            display: flex;
+            font-size: 1.5rem;
+            flex-direction: column;
+            height: 100rem;
+            gap: 1rem;
+            color: #fff;
+        }
+        .contenedor__box__tittle {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            border-radius: 30px;
+            background: linear-gradient(to right, #234252,#235664);
+            margin: 0 auto;
+        }
+        .contenedor__box__video {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            height: 90%;
+            
+            border-radius: 5px;
+            border: #212122 solid 2px;  
+            gap: 1rem;
+            
+            
+            align-items: center;
+        }
+        .box__video__vid{
+            width: 90%;
+            height: 25%;
+            margin-bottom: 1rem;
+
+        }
+        .box__video__img {
+            width: 80%;
+            height: 80%;
+            margin: 0 auto;
+        }
+    }
