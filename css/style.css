@@ -109,13 +109,10 @@
             display: flex;
             flex-direction: column;
             width: 90%;
-            height: 90%;
-            
+            height: 90%;            
             border-radius: 5px;
             border: #212122 solid 2px;  
             gap: 1rem;
-            
-            
             align-items: center;
         }
         .box__video__vid{
@@ -128,5 +125,8 @@
             width: 80%;
             height: 80%;
             margin: 0 auto;
+        }
+        .con2 {
+            margin-top: 2rem;
         }
     }
