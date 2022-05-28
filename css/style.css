@@ -14,14 +14,14 @@
         font-size: 1.5rem;
     }
     .contenedor {
-        margin-top: 2rem;
+        gap: 4rem;
     }
     .contenedor__box{
         display: flex;
         font-size: 1.5rem;
         flex-direction: column;
         height: 100rem;
-        gap: 1rem;
+        gap: 4rem;
         color: #fff;
     }
     .icon {
@@ -33,11 +33,13 @@
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
-        margin:  auto 0;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
         
     }
     .navbar , .indice {
-        background: linear-gradient(to left, #580000, rgb(0, 54, 116));
+        background: linear-gradient(to right, #580052, #003674);
     }
     .indice a {
         display: flex;
@@ -50,8 +52,9 @@
         font-size: 2rem;
         color: #fff;
     }
-    #titulo1 {
+    #titulo1,#titulo2,#titulo3,#titulo4 {
         margin:auto 0;
+        text-transform: uppercase;
     }
     .contenedor__box__tittle {
         width: 90%;
@@ -76,6 +79,9 @@
         width: 80%;
         margin-top: 1rem;
         margin-left: 15%;
+    }
+    .con2 {
+        margin-top: 50rem;
     }
     @media (max-width: 480px) {
         .navbar {
